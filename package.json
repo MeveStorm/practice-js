@@ -1,5 +1,5 @@
 {
-  "name": "project-template",
+  "name": "practice-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,16 +7,20 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeveStorm/practice-js.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@jest/globals": "^29.2.1",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^25.2.2",
-    "jest": "^28.1.0"
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jest": "25.2.2",
+    "jest": "28.1.0"
   },
   "dependencies": {
+    "@jest/globals": "29.2.1"
   }
 }
